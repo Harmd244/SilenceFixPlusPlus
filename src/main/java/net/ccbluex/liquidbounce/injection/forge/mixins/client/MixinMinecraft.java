@@ -22,6 +22,7 @@ import net.ccbluex.liquidbounce.utils.CPSCounter;
 import net.ccbluex.liquidbounce.utils.ClientUtils;
 import net.ccbluex.liquidbounce.utils.ReflectionUtil;
 import net.ccbluex.liquidbounce.utils.SilentHotbar;
+import net.ccbluex.liquidbounce.utils.io.MiscUtils;
 import net.ccbluex.liquidbounce.utils.misc.HttpUtils;
 import net.ccbluex.liquidbounce.utils.render.IconUtils;
 import net.ccbluex.liquidbounce.utils.render.MiniMapRegister;
@@ -35,19 +36,23 @@ import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.multiplayer.PlayerControllerMP;
 import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.client.settings.GameSettings;
+import net.minecraft.crash.CrashReport;
 import net.minecraft.entity.player.InventoryPlayer;
+import net.minecraft.init.Bootstrap;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.MovingObjectPosition;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Util;
+import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import org.lwjgl.Sys;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.Display;
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.Unique;
 import org.spongepowered.asm.mixin.injection.*;
@@ -55,8 +60,11 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.awt.*;
+import java.io.File;
 import java.io.IOException;
 import java.nio.ByteBuffer;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Queue;
 
 import static net.ccbluex.liquidbounce.utils.MinecraftInstance.mc;
@@ -317,5 +325,27 @@ public abstract class MixinMinecraft {
     @ModifyConstant(method = "getLimitFramerate", constant = @Constant(intValue = 30))
     public int getLimitFramerate(int constant) {
         return 60;
+    }
+
+    @Overwrite
+    public void displayCrashReport(CrashReport p_displayCrashReport_1_) {
+        File file1 = new File(mc.mcDataDir, "SilenceFixCrashReport");
+        File file2 = new File(file1, "silencefix-" + (new SimpleDateFormat("yyyy-MM-dd_HH.mm.ss")).format(new Date()) + "-crash.txt");
+        Bootstrap.printToSYSOUT(p_displayCrashReport_1_.getCompleteReport());
+        int retVal;
+        if (p_displayCrashReport_1_.getFile() != null) {
+            Bootstrap.printToSYSOUT("#@!@# Game crashed! Crash report saved to: #@!@# " + p_displayCrashReport_1_.getFile());
+            retVal = -1;
+        } else if (p_displayCrashReport_1_.saveToFile(file2)) {
+            Bootstrap.printToSYSOUT("#@!@# Game crashed! Crash report saved to: #@!@# " + file2.getAbsolutePath());
+            retVal = -1;
+        } else {
+            Bootstrap.printToSYSOUT("#@?@# Game crashed! Crash report could not be saved. #@?@#");
+            retVal = -2;
+        }
+
+        MiscUtils.showErrorPopup(p_displayCrashReport_1_.getCrashCause(), "Game crashed! ", MiscUtils.generateCrashInfo());
+
+        FMLCommonHandler.instance().handleExit(retVal);
     }
 }

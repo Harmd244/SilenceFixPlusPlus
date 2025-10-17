@@ -14,6 +14,7 @@ import net.ccbluex.liquidbounce.file.FileManager.fontsDir
 import net.ccbluex.liquidbounce.utils.ClientUtils.LOGGER
 import net.ccbluex.liquidbounce.utils.MinecraftInstance
 import net.minecraft.client.gui.FontRenderer
+import net.minecraft.util.ResourceLocation
 import java.awt.Font
 import java.io.File
 import java.io.IOException
@@ -25,6 +26,7 @@ object Fonts : MinecraftInstance() {
 
     @FontDetails(fontName = "Minecraft Font")
     var minecraftFont: FontRenderer = mc.fontRendererObj
+
 
     @FontDetails(fontName = "Product Sans Medium", fontSize = 16)
     lateinit var font16: GameFontRenderer

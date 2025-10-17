@@ -381,6 +381,8 @@
 
         "tabs.heads": "玩家头颅",
 
-        "tabs.special": "特殊"
+        "tabs.special": "特殊",
+
+      "module.murderDetector.description": "检测你周围身边的狼人"
     }
 }

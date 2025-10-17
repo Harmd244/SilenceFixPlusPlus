@@ -5,6 +5,7 @@
  */
 package net.ccbluex.liquidbounce.injection.forge.mixins.entity;
 
+import net.ccbluex.liquidbounce.LiquidBounce;
 import net.ccbluex.liquidbounce.event.*;
 import net.ccbluex.liquidbounce.features.module.modules.combat.KillAura;
 import net.ccbluex.liquidbounce.features.module.modules.exploit.AntiHunger;
@@ -800,5 +801,11 @@ public abstract class MixinEntityPlayerSP extends MixinAbstractClientPlayer {
     private void postTickEvent(CallbackInfo ci) {
         final PlayerTickEvent tickEvent = new PlayerTickEvent(EventState.POST);
         EventManager.INSTANCE.callEvent(tickEvent);
+    }
+
+    @Inject(method = "respawnPlayer", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/network/NetHandlerPlayClient;addToSendQueue(Lnet/minecraft/network/Packet;)V"))
+    private void callEventRespawn(CallbackInfo ci) {
+        final RespawnEvent respawnEvent = new RespawnEvent();
+        EventManager.INSTANCE.callEvent(respawnEvent);
     }
 }

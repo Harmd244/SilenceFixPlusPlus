@@ -39,6 +39,20 @@ class SysUtils {
         }
     }
 
+    fun copyToFontDir2(filePath: String) {
+        val isFileInDir = File(FileManager.fontsDir, filePath)
+        if (!isFileInDir.exists()) {
+            val inputStream: InputStream =
+                LiquidBounce::class.java.classLoader.getResourceAsStream("assets/minecraft/liquidbounce/font/${filePath}")
+                    ?: throw IllegalStateException("$filePath not found in resources")
+            Files.copy(inputStream, isFileInDir.toPath(), StandardCopyOption.REPLACE_EXISTING)
+            inputStream.close()
+            LOGGER.info("Copied $filePath to ${isFileInDir.absolutePath}")
+        } else {
+            LOGGER.info("${filePath} already exists.")
+        }
+    }
+
     fun copyToClipboard(text: String) {
         try {
             val clipboard = Toolkit.getDefaultToolkit().systemClipboard

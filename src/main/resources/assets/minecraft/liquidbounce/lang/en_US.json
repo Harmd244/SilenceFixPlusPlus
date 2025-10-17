@@ -384,6 +384,8 @@
 
         "tabs.heads": "Heads",
 
-        "tabs.special": "Special Blocks"
+        "tabs.special": "Special Blocks",
+
+        "module.murderDetector.description": "The Module Can Detect Murder."
     }
 }
