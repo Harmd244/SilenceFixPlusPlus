@@ -1,0 +1,16 @@
+[
+  {
+    "modid": "silencefixplusplus",
+    "name": "SilenceFixPlusPlus",
+    "description": "欣欣启动!",
+    "version": "${version}",
+    "mcversion": "1.8.9",
+    "url": "https://heshuyou.xyz",
+    "updateUrl": "",
+    "authorList": ["HeShuYou"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

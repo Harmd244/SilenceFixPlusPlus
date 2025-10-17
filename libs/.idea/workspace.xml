@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="369410a5-f784-4e35-82ce-1f85c34e36cd" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../.downloads/configs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/configs/aac5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/configs/mmc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/configs/sparky" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/configs/watchdogpublic+" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/scripts/KillAuraPatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/scripts/LocalSettingsList-1.4.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/scripts/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/themes/Astolfo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/themes/Astolfo2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/themes/AstolfoNew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/themes/LiquidBounce++" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/themes/LiquidBounceSkeet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/themes/Prestige" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/themes/Raven-B4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.downloads/themes/Watami" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/CREDITS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/co/uk/hexeption/utils/OutlineUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/co/uk/hexeption/utils/OutlineUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/LiquidBounce.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/LiquidBounce.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/discord/ClientRichPresence.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/event/Event.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/event/Event.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/event/EventManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/event/EventManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/event/Events.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/event/Events.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/event/Listenable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/event/Listenable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/Command.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/CommandManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/CommandManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/AutoDisableCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/AutoDisableCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/AutoSettingsCommand.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/AutoThemeCommand.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/BindCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/BindCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/BindsCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/BindsCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ConnectCommand.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/EnchantCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/EnchantCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/FriendCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/FriendCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/GiveCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/GiveCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HClipCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HClipCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HelpCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HelpCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HideCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HideCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HoloStandCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HoloStandCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HurtCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/HurtCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/LocalAutoSettingsCommand.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/MacroCommand.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/PanicCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/PanicCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/PathfindingTeleportCommand.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/PingCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/PingCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/PrefixCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/PrefixCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ReloadCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ReloadCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/RemoteViewCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/RemoteViewCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/RenameCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/RenameCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/SayCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/SayCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ScriptManagerCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ScriptManagerCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ServerInfoCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ServerInfoCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ShortcutCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ShortcutCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/SnowFallCommand.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/TacoCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/TacoCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/TargetCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/TargetCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/TeleportCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/TeleportCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ThemeCommand.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ToggleCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/ToggleCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/UUIDCommand.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/UsernameCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/UsernameCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/VClipCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/commands/VClipCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/shortcuts/Shortcut.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/shortcuts/Shortcut.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/shortcuts/ShortcutParser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/shortcuts/ShortcutParser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/shortcuts/Tokens.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/shortcuts/Tokens.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/special/XrayCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/command/special/XrayCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/Module.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/Module.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/ModuleCategory.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/ModuleCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/ModuleCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/ModuleInfo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/ModuleManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/ModuleManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/color/ColorElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/color/ColorMixer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Aimbot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Aimbot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AntiFireBall.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoBow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoBow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoClicker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoClicker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoLeave.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoLeave.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoPot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoPot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoSoup.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoSoup.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoWeapon.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/AutoWeapon.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/BowAimbot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/ComboOneHit.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Criticals.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Criticals.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/FastBow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/FastBow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/HitBox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/HitBox.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Ignite.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Ignite.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/KillAura.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/KillAura.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/NoFriends.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/NoFriends.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/SuperKnockback.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/SuperKnockback.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/TNTBlock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/TNTBlock.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/TeleportAura.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Velocity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/combat/Velocity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/AbortBreaking.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/AbortBreaking.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/AntiHunger.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/AntiHunger.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/BedGodMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/BedGodMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Clip.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Clip.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/ConsoleSpammer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/ConsoleSpammer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/CustomDisabler.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Damage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Damage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Disabler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Disabler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/FakeLag.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Ghost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Ghost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/GhostHand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/GhostHand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/GodMode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/GodMode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/ItemTeleport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/KeepContainer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/KeepContainer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Kick.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Kick.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/MultiActions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/MultiActions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/PacketFixer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Phase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/PingSpoof.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Plugins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/PortalMenu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/PortalMenu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/ResetVL.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/ServerCrasher.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/ServerCrasher.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/Teleport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/VehicleOneHit.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/exploit/VehicleOneHit.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AntiBan.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AntiBot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AntiDesync.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AntiExploit.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AntiVanish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AntiVanish.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AuthBypass.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AutoDisable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AutoDisable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AutoHypixel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AutoKit.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AutoLogin.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/AutoPlay.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/HoverDetails.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/MidClick.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/MidClick.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/NameProtect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/NoInvClose.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/NoRotateSet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/NoRotateSet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/PackSpoofer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/Patcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/Spammer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/SpinBot.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/Teams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/misc/Teams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/AirJump.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/AirJump.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/AirLadder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/AirLadder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/AutoWalk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/AutoWalk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/BlockWalk.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/BowJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/BufferSpeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/FastClimb.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/FastClimb.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/FastStairs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/FastStairs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Fly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Freeze.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Freeze.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/HighJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/IceSpeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/InvMove.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/KeepSprint.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/LadderJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/LiquidWalk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/LongJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/NoClip.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/NoClip.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/NoJumpDelay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/NoJumpDelay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/NoSlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/NoSlow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/NoWeb.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/NoWeb.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Parkour.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Parkour.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/PerfectHorseJump.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/PerfectHorseJump.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/ReverseStep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/SafeWalk.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/SafeWalk.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/SlimeJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Sneak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Speed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Sprint.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Sprint.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Step.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Step.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Strafe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/Strafe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/TargetStrafe.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/TargetStrafe.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/WallClimb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/WaterSpeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/SpeedMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC2BHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC3BHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC4BHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC4FastHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC4Hop.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC4LongHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC4SlowHop.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC5BHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC6BHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AAC7BHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACBHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACGround.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACGround2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACHop3313.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACHop350.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACHop438.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACLowHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACLowHop2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACLowHop3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACYPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACYPort2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/AACv4BHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/aac/OldAACBHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/hypixel/HypixelBoost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/hypixel/HypixelCustom.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/hypixel/HypixelStable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/matrix/MatrixDynamic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/matrix/MatrixMultiply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/matrix/MatrixSemiStrafe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/matrix/MatrixTimerBalance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/Boost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/Frame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/MiJump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/NCPBHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/NCPFHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/NCPHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/NCPYPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/OnGround.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/SNCPBHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/YPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/ncp/YPort2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/AEMine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/CustomSpeed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/GWEN.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/HiveHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/Jump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/Legit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/MineplexGround.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/SlowHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/StrafeHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/other/TeleportCubeCraft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/spartan/SpartanYPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/spectre/SpectreBHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/spectre/SpectreLowHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/spectre/SpectreOnGround.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/verus/VerusHard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/verus/VerusHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/movement/speeds/verus/VerusLowHop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AntiAFK.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AntiAFK.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AntiCactus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AntiCactus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AntiVoid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AutoFish.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AutoFish.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AutoRespawn.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AutoRespawn.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AutoTool.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/AutoTool.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Blink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Eagle.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Eagle.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/FastUse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/FastUse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Gapple.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Gapple.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Heal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/InvManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/KeepAlive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/KeepAlive.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/NoFall.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/NoFall.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/PotionSaver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/PotionSaver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Reach.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Reach.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Regen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Regen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Zoot.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/player/Zoot.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Animations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/AntiBlind.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/AntiBlind.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/AsianHat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/BlockESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/BlockOverlay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/BlockOverlay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Breadcrumbs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/CameraClip.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/CameraClip.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Cape.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Chams.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Chams.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/ClickGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Crosshair.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/DamageParticle.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/ESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/ESP2D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/EnchantEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/FreeCam.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/FreeCam.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Fullbright.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/HUD.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/HUD.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/ItemESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/ItemPhysics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/ItemPhysics.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/NameTags.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/NameTags.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/NewGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/NoAchievements.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/NoFOV.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/NoFOV.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/NoHurtCam.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/NoRender.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/NoRender.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/PointerESP.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/PointerESP.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Projectiles.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Projectiles.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/ProphuntESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Rotations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Rotations.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Skeletal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/StorageESP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/SuperheroFX.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/TNTESP.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/TNTESP.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/TargetMark.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Tracers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/Tracers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/TrueSight.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/TrueSight.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/XRay.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/render/XRay.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Ambience.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/AutoBreak.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/AutoBreak.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/ChestAura.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/ChestAura.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/ChestStealer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/ChestStealer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/CivBreak.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/CivBreak.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/FastBreak.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/FastBreak.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/FastPlace.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/FastPlace.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Fucker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Fucker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Lightning.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Liquids.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Liquids.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/NoSlowBreak.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/NoSlowBreak.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Nuker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Nuker.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Scaffold.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/SpeedMine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Timer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/module/modules/world/Timer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/special/AntiForge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/special/AutoReconnect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/special/AutoReconnect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/special/BungeeCordSpoof.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/special/BungeeCordSpoof.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/special/MacroManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/features/special/UUIDSpoofer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/FileConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/FileManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/configs/AccountsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/configs/ClickGuiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/configs/FriendsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/configs/HudConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/configs/ModulesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/configs/ShortcutsConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/configs/ShortcutsConfig.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/configs/ValuesConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/file/configs/XRayConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/access/IItemStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/access/IItemStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/access/StaticStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/access/StaticStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/TransformerLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/accessors/MinecraftForgeClientAccessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockAnvil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockAnvil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockLadder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockLadder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockLiquid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockLiquid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockModelRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockModelRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockRedstoneTorch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockSoulSand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/block/MixinBlockSoulSand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinGameSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinGameSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinMinecraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinMinecraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinMovementInputFromOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinMovementInputFromOptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinResourcePackRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/client/MixinResourcePackRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/crash/MixinCrashReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinAbstractClientPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinAbstractClientPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntityLivingBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntityLivingBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntityOtherPlayerMP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntityPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntityPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntityPlayerSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntityPlayerSP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinEntityXPOrb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinPlayerControllerMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/entity/MixinPlayerControllerMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiAchievement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiAchievement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiButtonExt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiButtonExt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiConnecting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiConnecting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiDisconnected.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiDisconnected.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiDownloadTerrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiDownloadTerrain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiEditSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiEditSign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiGameOver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiInGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiInGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiIngameForge.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiIngameForge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiIngameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiIngameMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiKeyBindingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiKeyBindingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiLanguage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiMultiplayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiMultiplayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiNewChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiNewChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiScreenOptionsSounds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiScreenResourcePacks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiSlot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiSpectator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinGuiSpectator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinServerSelectionList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/gui/MixinServerSelectionList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/item/MixinItemRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/item/MixinItemRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/item/MixinItemStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/item/MixinNBTTagCompound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/network/MixinNetHandlerPlayClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/network/MixinNetHandlerPlayClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/network/MixinNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/network/MixinNetworkManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/network/MixinNetworkPlayerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/network/MixinNetworkPlayerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/packets/MixinC00Handshake.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/packets/MixinC00Handshake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/packets/MixinC17PacketCustomPayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/packets/MixinS3FPacketCustomPayload.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinBlockFluidRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinClientCommandHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinCommandHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinEntityPackets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinItemModelMesher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinLazyLoadBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinRegionRenderCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinScoreboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinServerAddress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinServerList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/bugfixes/MixinSoundManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/performance/MixinAnvilChunkLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/performance/MixinBlockPos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/performance/MixinFluidRegistry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/performance/MixinGameRulesValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/performance/MixinMinecraftServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/patcher/performance/MixinNodeProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinEffectRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinEffectRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinEntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinEntityRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinFontRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinFontRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinInventoryEffectRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinLayerArrow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinLayerCreeperCharge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinLayerHeldItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinLayerHeldItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinLayerSpiderEyes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinLayerWitherAura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinModelBiped.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinModelBiped.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinModelPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinModelSkeleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinModelVillager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinRenderEntityItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinRenderEntityItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinRenderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinRenderPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinRenderPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinRendererLivingEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinRendererLivingEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntityBannerRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntityChestRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntityChestRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntityItemStackRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntityItemStackRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntityMobSpawnerRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntityMobSpawnerRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntityRendererDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntityRendererDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinTileEntitySkullRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinVisGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/render/MixinVisGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/resources/MixinDefaultResourcePack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/resources/MixinSkinManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/resources/MixinSkinManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/world/MixinWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/world/MixinWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/world/MixinWorldClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/forge/mixins/world/MixinWorldClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/implementations/IItemStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/implementations/IMixinGuiSlot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/transformers/ForgeNetworkTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/transformers/ForgeNetworkTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/transformers/NetworkManagerTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/injection/transformers/OptimizeTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/Script.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/Script.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/ScriptManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/ScriptManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/ScriptCommand.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/ScriptCommand.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/ScriptModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/ScriptModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/ScriptTab.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/ScriptTab.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/global/Chat.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/global/Chat.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/global/Item.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/global/Item.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/global/Setting.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/api/global/Setting.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/Remapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/Remapper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/injection/transformers/AbstractJavaLinkerTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/injection/transformers/AbstractJavaLinkerTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/injection/transformers/handlers/AbstractJavaLinkerHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/injection/transformers/handlers/AbstractJavaLinkerHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/injection/utils/ClassUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/injection/utils/ClassUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/injection/utils/NodeUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/script/remapper/injection/utils/NodeUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/tabs/BlocksTab.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/tabs/BlocksTab.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/tabs/ExploitsTab.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/tabs/ExploitsTab.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/tabs/HeadsTab.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/tabs/HeadsTab.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/GuiBackground.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/GuiKeybindHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/GuiMainMenu.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/GuiMainMenu.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/GuiScripts.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/GuiScripts.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/GuiAltManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/GuiAltManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/menus/GuiChangeName.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/menus/GuiLoginIntoAccount.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/menus/GuiLoginIntoAccount.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/menus/GuiLoginProgress.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/menus/GuiLoginProgress.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/menus/GuiSessionLogin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/menus/GuiSessionLogin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/menus/altgenerator/GuiTheAltening.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/altmanager/menus/altgenerator/GuiTheAltening.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/ClickGui.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/Panel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/elements/ButtonElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/elements/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/elements/ModuleElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/ColorManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/ColorManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/IconManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/IconManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/NewUi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/NewUi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/CategoryElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/CategoryElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/SearchBox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/SearchBox.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/SearchElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/SearchElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/components/Checkbox.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/components/Checkbox.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/components/Slider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/components/Slider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/components/ToggleSwitch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/components/ToggleSwitch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/ModuleElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/ModuleElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/ValueElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/ValueElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/impl/BooleanElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/impl/BooleanElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/impl/FloatElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/impl/FloatElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/impl/IntElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/impl/IntElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/impl/ListElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/element/module/value/impl/ListElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/extensions/AnimHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/newVer/extensions/AnimHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/style/Style.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/style/styles/BlackStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/style/styles/LiquidBounceStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/style/styles/NullStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/style/styles/SlowlyStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/clickgui/style/styles/WhiteStyle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/Config.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/HUD.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/HUD.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/designer/EditorPanel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/designer/EditorPanel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/designer/GuiHudDesigner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/designer/GuiHudDesigner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/Element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/Element.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Armor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Armor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Arraylist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Arraylist.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Effects.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Effects.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Graph.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Image.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Inventory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Inventory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Model.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Model.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Notifications.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Notifications.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/PlayerList.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Radar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Radar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/ScoreboardElement.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/ScoreboardElement.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/SpeedGraph.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Statistics.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/TabGUI.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Target.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Target.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Text.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/Text.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/TargetStyle.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/Astolfo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/Chill.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/Exhibition.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/JelloReborn.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/LiquidBounce.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/Moon.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/MoonLatest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/Mossware.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/NightX.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/Remix.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/Rice.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/impl/Slowly.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/utils/CharRenderer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/client/hud/element/elements/targets/utils/Particle.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/elements/GuiPasswordField.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/elements/GuiPasswordField.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/elements/ToolDropdown.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/font/AWTFontRenderer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/font/AWTFontRenderer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/font/CachedFont.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/font/CachedFont.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/font/FontDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/font/Fonts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/font/GameFontRenderer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/font/GameFontRenderer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/ui/font/TTFFontRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/ASMUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/ASMUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/AStarCustomPathFinder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/AnimationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/CPSCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/ClassUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/ClassUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/ClientUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/EntityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/InventoryHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/InventoryUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/MinecraftInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/MouseUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/MouseUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/MovementUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/PacketUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/PathUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/PosLookInstance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/RaycastUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/RegexUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/RollingArrayLongBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/Rotation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/Rotation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/RotationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/ServerUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/SessionUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/SettingsUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/SettingsUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/TabUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/block/BlockUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/block/BlockUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/block/PlaceInfo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/block/PlaceInfo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/extensions/BlockExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/extensions/BlockExtension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/extensions/ColorExtension.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/extensions/PlayerExtension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/extensions/PlayerExtension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/item/ArmorComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/item/ArmorPart.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/item/ArmorPiece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/item/ItemCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/item/ItemHelper.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/item/ItemUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/login/LoginUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/login/LoginUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/login/UserUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/login/UserUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/misc/FallingPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/misc/HttpUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/misc/HttpUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/misc/MiscUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/misc/NewFallingPlayer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/misc/RandomUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/misc/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/misc/sound/TipSoundManager.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/misc/sound/TipSoundPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/AnimationUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/BlendUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/BlendUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/BlurUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/BlurUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/ColorUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/ColorUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/CustomTexture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/EaseUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/EaseUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/IconUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/ParticleUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/RenderUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/SafeVertexBuffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/ShadowUtils.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/Stencil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/Stencil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/UiUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/WorldToScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/shader/FramebufferShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/shader/Shader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/shader/shaders/BackgroundDarkShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/shader/shaders/BackgroundShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/shader/shaders/GlowShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/shader/shaders/OutlineShader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/shader/shaders/RainbowShader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/render/shader/shaders/RainbowShader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/timer/MSTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/timer/TickTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/utils/timer/TimeUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/value/Value.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/ccbluex/liquidbounce/value/Value.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/vitox/Particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/vitox/Particle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/vitox/ParticleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/vitox/ParticleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/net/vitox/particle/util/RenderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/net/vitox/particle/util/RenderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/blur.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/cape/dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/cape/darker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/cape/light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/cape/special1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/cape/special2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/brush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/docs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/import.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/online.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/reload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/remove.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/clickgui/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/custom_hud_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/expand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/icon_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/icon_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/logo_16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/logo_32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/logo_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/alt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/discord.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/exit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/mods.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/multiplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/singleplayer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/menu/wallpaper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/notification/checkmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/notification/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/notification/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/notification/new/checkmark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/notification/new/error.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/notification/new/info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/notification/new/warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/notification/warning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/scriptapi/legacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/shader/fragment/background.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/shader/fragment/backgrounddark.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/shader/fragment/glow.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/shader/fragment/outline.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/shader/fragment/rainbow_shader.frag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/shader/vertex.vert" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/shadow.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/sound/disable.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/sound/enable.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/sus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/liquidbounce+/taco/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/shaders/post/blurArea.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/shaders/program/blurArea.fsh" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/shaders/program/blurArea.fsh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/shaders/program/blurArea.json" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/shaders/program/blurArea.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/shaders/program/blurTest.fsh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/assets/minecraft/shaders/program/blurTest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/br_items.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/liquidbounce.forge.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/liquidbounce.forge.mixins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/liquidbounce_at.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/liquidbounce_at.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mcmod.info" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/mcmod.info" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleUserHome" value="$PROJECT_DIR$/../../../.gradle" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="33SNPKlq9cax5CLaUXL2f9s2XoN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/IDEAProjects/SilenceFixPlusPlus/libs",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="369410a5-f784-4e35-82ce-1f85c34e36cd" name="更改" comment="" />
+      <created>1759306487499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759306487499</updated>
+    </task>
+    <servers />
+  </component>
+</project>

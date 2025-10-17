@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jinput-platform-2.0.7-natives-osx.jar!/" />
+      <root url="jar://$PROJECT_DIR$/authlib-1.5.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jlayer-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jinput-platform-2.0.7-natives-windows.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ibxm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/joml-1.10.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ViaBackwards-5.2.0-downgraded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/snakeyaml-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jorbis-0.0.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jinput-2.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jinput-platform-2.0.7-natives-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ViaVersion-5.2.0-downgraded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jogg-0.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/filters-2.0.235-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nashorn.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ViaRewind-4.0.4-downgraded.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

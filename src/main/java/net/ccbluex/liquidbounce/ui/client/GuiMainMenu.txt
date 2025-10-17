@@ -1,0 +1,170 @@
+package net.ccbluex.liquidbounce.ui.client
+
+import net.ccbluex.liquidbounce.lang.Language
+import net.ccbluex.liquidbounce.lang.LanguageManager
+import net.ccbluex.liquidbounce.ui.client.altmanager.GuiAltManager
+import net.ccbluex.liquidbounce.ui.font.Fonts
+import net.ccbluex.liquidbounce.utils.Background
+import net.ccbluex.liquidbounce.utils.GlowUtils
+import net.ccbluex.liquidbounce.utils.MinecraftInstance
+import net.ccbluex.liquidbounce.utils.playMP3
+import net.ccbluex.liquidbounce.utils.render.LBPRenderUtils
+import net.ccbluex.liquidbounce.utils.render.RenderUtils
+import net.ccbluex.liquidbounce.utils.render.RenderUtils.drawImage
+import net.ccbluex.liquidbounce.utils.render.RenderUtils.drawRoundedBorderRect
+import net.minecraft.client.gui.Gui
+import net.minecraft.client.gui.GuiButton
+import net.minecraft.client.gui.GuiOptions
+import net.minecraft.client.gui.GuiScreen
+import net.minecraft.client.gui.GuiSelectWorld
+import net.minecraft.client.gui.GuiMultiplayer
+import net.minecraft.client.renderer.GlStateManager
+import net.minecraft.client.renderer.GlStateManager.color
+import net.minecraft.client.resources.I18n
+import net.minecraft.util.ResourceLocation
+import java.awt.Color
+
+class GuiMainMenu : GuiScreen() {
+
+    companion object {
+        private var played = false
+    }
+
+    fun translationMenu(key: String, vararg args: Any) = LanguageManager.getTranslation("menu.$key", *args)
+
+    private val lancerW = 74f
+    private val lancerH = 62f
+    private var xPos = -lancerW
+    private var vx = 100f
+    private var ax = 200f
+    private var lastTime = 0L
+
+    private val expFrames = 17
+    private var expOn = false
+    private var expFrame = 1
+    private var lastExpTime = 0L
+    private val expInterval = 80L
+
+    private var running = false
+    private var done = false
+    private var delayStart = 0L
+    private val delayMs = 1000L
+    private var delayPassed = false
+    private var doExchange = false
+    private var currentX = 0f
+    private var currentY = 0f
+
+    override fun initGui() {
+        super.initGui()
+        GuiClientConfiguration(this).stopMusic()
+        val h0 = height / 4 + 48
+        val bw = 98
+        val bh = 20
+        val sp = 24
+        buttonList.run {
+            add(GuiButton(1, width/2-100, h0, bw, bh, I18n.format("menu.singleplayer")))
+            add(GuiButton(2, width/2+2, h0, bw, bh, I18n.format("menu.multiplayer")))
+            add(GuiButton(100, width/2-100, h0+sp, bw, bh, translationMenu("altManager")))
+            add(GuiButton(103, width/2+2, h0+sp, bw, bh, translationMenu("mods")))
+            add(GuiButton(101, width/2-100, h0+sp*2, bw*2+4, bh, translationMenu("serverStatus")))
+            add(GuiButton(102, width/2-100, h0+sp*3, bw*2+4, bh, translationMenu("configuration")))
+            add(GuiButton(0, width/2-100, h0+sp*4, bw, bh, I18n.format("menu.options")))
+            add(GuiButton(4, width/2+2, h0+sp*4, bw, bh, I18n.format("menu.quit")))
+            //add(GuiButton(114, width/2-100, h0+sp*5, bw*2+4, bh, "MiniGame"))
+        }
+        if (!played) {
+            running = false
+            done = false
+            delayPassed = false
+            delayStart = System.currentTimeMillis()
+            xPos = -lancerW
+            vx = 100f
+            ax = 200f
+            lastTime = 0L
+            expOn = false
+            expFrame = 1
+            lastExpTime = 0L
+        }
+    }
+
+    override fun drawScreen(mx: Int, my: Int, pt: Float) {
+        drawBackground(0)
+        val now = System.currentTimeMillis()
+        if (!played && !delayPassed) {
+            if (now - delayStart >= delayMs) {
+                delayPassed = true
+                running = true
+                lastTime = now
+            }
+        }
+        if (running && !done) {
+            val dt = ((now - lastTime).coerceAtLeast(0L)) / 1000f
+            if (!expOn) {
+                vx += ax*dt
+                xPos += vx*dt
+                val collideX = width/2f - 100f
+                if (xPos + lancerW >= collideX) {
+                    expOn = true
+                    doExchange = true
+                    lastExpTime = now
+                    vx += 150f
+                }
+            } else {
+                vx += ax*dt
+                xPos += vx*dt
+            }
+            lastTime = now
+            if (expOn && expFrame<=expFrames) {
+                if (lastExpTime==0L) lastExpTime=now
+                if (now - lastExpTime >= expInterval) {
+                    expFrame++
+                    lastExpTime = now
+                }
+            }
+            val logoTop = height/8f
+            val logoHt = 58f
+            val centerY = logoTop + logoHt/2f
+            if (expOn && expFrame>expFrames) {
+                done = true
+                played = true
+            }
+        }
+        if (played) {
+            val bw = 92
+            val bh = 120
+            val y0 = (height/8f - 10f).toInt()
+        } else if ((!running && delayPassed && !doExchange) || done) {
+        } else if (!played) {
+        }
+        RenderUtils.drawRect(width / 2.0f - 115, height / 4.0f + 35, width / 2.0f + 115, height / 4.0f + 175, Integer.MIN_VALUE)
+        drawImage(ResourceLocation("liquidbounce/logo_large.png"), width / 2 - 100, height / 8, 199, 58)
+        Fonts.fontNoto35.drawCenteredString("b0.3.2", width/2f+148f, height/8f+Fonts.font35.fontHeight, 0xffffff, true)
+        super.drawScreen(mx, my, pt)
+    }
+
+    private fun frameIndex(): Int {
+        val step = lancerW/6f
+        val moved = xPos + lancerW
+        if (moved<=0f) return 1
+        return ((moved/step).toInt()%6 + 1).coerceIn(1,6)
+    }
+
+    override fun mouseClicked(mx: Int, my: Int, btn: Int) = super.mouseClicked(mx, my, btn)
+
+    override fun actionPerformed(b: GuiButton) {
+        when (b.id) {
+            0 -> mc.displayGuiScreen(GuiOptions(this, mc.gameSettings))
+            1 -> mc.displayGuiScreen(GuiSelectWorld(this))
+            2 -> mc.displayGuiScreen(GuiMultiplayer(this))
+            4 -> mc.shutdown()
+            100 -> mc.displayGuiScreen(GuiAltManager(this))
+            101 -> mc.displayGuiScreen(GuiServerStatus(this))
+            102 -> {
+                GuiClientConfiguration(this).playMP3("/assets/minecraft/liquidbounce/sounds/bgm.mp3")
+                mc.displayGuiScreen(GuiClientConfiguration(this))
+            }
+            103 -> mc.displayGuiScreen(GuiModsMenu(this))
+            114 -> mc.displayGuiScreen(GuiMiniGame(this))
+        }
+    }
+}

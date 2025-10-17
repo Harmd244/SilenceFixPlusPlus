@@ -1,0 +1,36 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository and submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      
+      - name: Setup java
+        uses: actions/setup-java@v4
+        with:
+          distribution: "adopt"
+          java-version: 8
+          cache: "gradle"
+      
+      - name: Build
+        run: |
+          chmod +x ./gradlew
+          ./gradlew setupCiWorkspace
+          ./gradlew build
+      
+      # 新增上传JAR文件的步骤
+      - name: Upload JAR Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifacts
+          path: build/libs/*.jar
