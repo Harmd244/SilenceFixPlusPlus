@@ -49,9 +49,9 @@ class GuiClientConfiguration(val prevGui: GuiScreen) : GuiScreen() {
         fun updateClientWindow() {
             if (enabledClientTitle) {
                 // Set LiquidBounce title
-                Display.setTitle("SilenceFix++ b0.3.2 | 欢迎您，" + QQUtils.getQQNick())
+                Display.setTitle("SilenceFix++ b1 | 欢迎您，" + QQUtils.getQQNick())
                 if (LiquidBounce.IN_DEV){
-                    Display.setTitle("SilenceFix++ b0.3.2 | 欢迎您，" + QQUtils.getQQNick() + " | " + "Development Build")
+                    Display.setTitle("SilenceFix++ b1 | 欢迎您，" + QQUtils.getQQNick() + " | " + "Development Build")
                 }
                 IconUtils.getFavicon()?.let { icons ->
                     Display.setIcon(icons)

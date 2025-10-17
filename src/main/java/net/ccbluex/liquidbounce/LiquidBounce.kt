@@ -107,7 +107,7 @@ object LiquidBounce {
     const val CLIENT_WEBSITE = "pornhub.com"
 
     const val MINECRAFT_VERSION = "1.8.9"
-    val clientVersionText = "b0.3.2"
+    val clientVersionText = "b1"
     val clientBigVersionText = "Release"
     val clientVersionNumber = clientVersionText.substring(1).toIntOrNull() ?: 0 // version format: "b<VERSION>" on legacy
     var clientCommit = gitInfo["git.commit.id.abbrev"]?.let { "git-$it" } ?: "unknown"
