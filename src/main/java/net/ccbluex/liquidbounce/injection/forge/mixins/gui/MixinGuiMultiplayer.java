@@ -21,6 +21,7 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import ru.fiw.proxyserver.ProxyServer;
 
 import java.io.IOException;
 
@@ -31,6 +32,8 @@ public abstract class MixinGuiMultiplayer extends MixinGuiScreen {
     private static Logger logger;
 
     private GuiButton bungeeCordSpoofButton;
+
+    private GuiButton proxyButton;
 
     @Inject(method = "initGui", at = @At("RETURN"))
     private void initGui(CallbackInfo callbackInfo) {
@@ -46,6 +49,12 @@ public abstract class MixinGuiMultiplayer extends MixinGuiScreen {
         buttonList.add(new GuiButton(996, width - 120, yPosition, 62, 20, LanguageKt.translationMenu("altManager")));
         buttonList.add(new GuiButton(999, width - 52, yPosition, 46, 20, "Tools"));
         buttonList.add(new GuiButton(699, 5, yPosition, 90, 20, "Version"));
+        buttonList.add(proxyButton = new GuiButton(114514, width - 190, yPosition, 90, 20, "Proxy"));
+    }
+
+    @Inject(method = "updateScreen", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/GuiScreen;updateScreen()V"))
+    private void updateProxyText(CallbackInfo ci) {
+        proxyButton.displayString = "Proxy: " + ProxyServer.lastProxyIp;
     }
 
     @Inject(method = "actionPerformed", at = @At("HEAD"))
@@ -67,6 +76,9 @@ public abstract class MixinGuiMultiplayer extends MixinGuiScreen {
                 break;
             case 699:
                 mc.displayGuiScreen(new GuiProtocolSelector((GuiScreen) (Object) this));
+                break;
+            case 114514:
+                mc.displayGuiScreen(new ru.fiw.proxyserver.GuiProxy((GuiScreen) (Object) this));
                 break;
         }
     }

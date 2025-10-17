@@ -10,6 +10,7 @@ import net.ccbluex.liquidbounce.LiquidBounce.background
 import net.ccbluex.liquidbounce.file.FileManager.backgroundImageFile
 import net.ccbluex.liquidbounce.file.FileManager.backgroundShaderFile
 import net.ccbluex.liquidbounce.ui.client.GuiClientConfiguration
+import net.ccbluex.liquidbounce.ui.client.GuiMiniGame
 import net.ccbluex.liquidbounce.ui.client.GuiScripts
 import net.ccbluex.liquidbounce.ui.client.altmanager.GuiAltManager
 import net.ccbluex.liquidbounce.ui.font.Fonts
@@ -26,6 +27,7 @@ import net.minecraft.client.renderer.texture.DynamicTexture
 import net.minecraft.client.resources.I18n
 import net.minecraft.util.ResourceLocation
 import net.minecraftforge.fml.client.GuiModList
+import org.lwjgl.input.Keyboard
 import java.awt.Color
 import java.io.FileInputStream
 import java.io.FileOutputStream
@@ -380,7 +382,12 @@ class GuiMainMenu : GuiScreen(), GuiYesNoCallback {
         Exit("Exit", ResourceLocation("liquidbounce+/menu/exit.png"))
     }
 
-    override fun keyTyped(typedChar: Char, keyCode: Int) {}
+    override fun keyTyped(typedChar: Char, keyCode: Int) {
+
+        when (keyCode) {
+            Keyboard.KEY_G -> mc.displayGuiScreen(GuiMiniGame(this))
+        }
+    }
 
     private fun loadGif() {
         val currentTime = System.nanoTime()

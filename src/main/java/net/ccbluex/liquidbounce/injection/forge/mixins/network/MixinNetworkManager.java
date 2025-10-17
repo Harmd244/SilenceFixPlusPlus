@@ -19,12 +19,15 @@ import de.florianmichael.vialoadingbase.netty.event.CompressionReorderEvent;
 import de.florianmichael.viamcp.MCPVLBPipeline;
 import de.florianmichael.viamcp.ViaMCP;
 import io.netty.bootstrap.Bootstrap;
+import io.netty.buffer.ByteBufAllocator;
 import io.netty.channel.*;
 import io.netty.channel.epoll.Epoll;
 import io.netty.channel.epoll.EpollSocketChannel;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.timeout.ReadTimeoutHandler;
+import io.netty.util.Attribute;
+import io.netty.util.AttributeKey;
 import net.ccbluex.liquidbounce.event.EventManager;
 import net.ccbluex.liquidbounce.event.EventState;
 import net.ccbluex.liquidbounce.event.PacketEvent;
@@ -36,14 +39,17 @@ import net.minecraft.network.Packet;
 import net.minecraft.network.play.client.C08PacketPlayerBlockPlacement;
 import net.minecraft.network.play.client.C0APacketAnimation;
 import net.minecraft.util.*;
+import org.jetbrains.annotations.NotNull;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
+import ru.fiw.proxyserver.ProxyServer;
 
 import java.net.InetAddress;
+import java.net.SocketAddress;
 
 import static net.minecraft.network.NetworkManager.CLIENT_EPOLL_EVENTLOOP;
 import static net.minecraft.network.NetworkManager.CLIENT_NIO_EVENTLOOP;
@@ -135,6 +141,8 @@ public class MixinNetworkManager {
                             new ProtocolPipelineImpl(user);
                             p_initChannel_1_.pipeline().addLast(new MCPVLBPipeline(user));
                         }
+
+                        ProxyServer.hook(p_initChannel_1_);
                     }
                 })
                 .channel(oclass)
@@ -143,6 +151,7 @@ public class MixinNetworkManager {
 
         cir.setReturnValue(networkmanager);
     }
+
     @Inject(method = "setCompressionTreshold", at = @At("TAIL"))
     private void fireCompression(int p_setCompressionTreshold_1_, CallbackInfo ci) {
         channel.pipeline().fireUserEventTriggered(new CompressionReorderEvent());

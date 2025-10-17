@@ -7,6 +7,7 @@ import net.minecraft.client.gui.GuiScreen
 import net.minecraft.util.ResourceLocation
 import org.lwjgl.input.Keyboard
 import javazoom.jl.player.Player
+import net.minecraft.client.gui.GuiYesNoCallback
 import java.io.BufferedInputStream
 import java.io.InputStream
 import kotlin.concurrent.thread
@@ -24,6 +25,7 @@ class GuiMiniGame(private val prevGui: GuiScreen) : GuiScreen() {
         ResourceLocation("liquidbounce/taco/1.png"),
         ResourceLocation("liquidbounce/custom_hud_icon.png")
     )
+
     private val spawnRate = 40
     private var spawnCounter = 0
     private val GIF_WIDTH = 133f
@@ -31,6 +33,22 @@ class GuiMiniGame(private val prevGui: GuiScreen) : GuiScreen() {
     private var musicPlayer: Player? = null
     private var musicThread: Thread? = null
     private var backgroundMusicPlaying = false
+    private var ticks = 0
+    private var previousTime = System.nanoTime()
+    private var interval = 1_000_000_000L / 15
+    var maodie = "liquidbounce/maodie/$ticks.png"
+
+
+    fun maodieTex() {
+        val currentTime = System.nanoTime()
+        val deltaTime = currentTime - previousTime
+        if (deltaTime >= interval) {
+            ticks++
+            if (ticks > 112)
+                ticks = 0
+            previousTime = currentTime
+        }
+    }
 
     override fun initGui() {
         playerX = width / 2f - GIF_WIDTH / 2
@@ -55,13 +73,14 @@ class GuiMiniGame(private val prevGui: GuiScreen) : GuiScreen() {
             updateGame()
         }
 
-        RenderUtils.drawImage(
-            ResourceLocation("liquidbounce/maodie/maodie.png"),
-            playerX.toInt(),
-            (height - 86).toInt(),
-            133,
-            86
-        )
+    maodieTex()
+    RenderUtils.drawImage(
+        ResourceLocation(maodie),
+        playerX.toInt(),
+        (height - 86).toInt(),
+        133,
+        86
+    )
 
         fallingObjects.forEach { obj ->
             RenderUtils.drawImage(obj.texture, obj.x.toInt(), obj.y.toInt(), obj.size, obj.size)
@@ -79,9 +98,15 @@ class GuiMiniGame(private val prevGui: GuiScreen) : GuiScreen() {
     private fun updateGame() {
         if (Keyboard.isKeyDown(Keyboard.KEY_A) || Keyboard.isKeyDown(Keyboard.KEY_LEFT)) {
             playerX -= playerSpeed
+            maodie = "liquidbounce/maodie/$ticks.png"
+        } else {
+            maodie = "liquidbounce/maodie/maodie.png"
         }
         if (Keyboard.isKeyDown(Keyboard.KEY_D) || Keyboard.isKeyDown(Keyboard.KEY_RIGHT)) {
             playerX += playerSpeed
+            maodie = "liquidbounce/maodie/$ticks.png"
+        } else {
+            maodie = "liquidbounce/maodie/maodie.png"
         }
         playerX = playerX.coerceIn(0f, width - GIF_WIDTH)
 
@@ -192,4 +217,5 @@ class GuiMiniGame(private val prevGui: GuiScreen) : GuiScreen() {
         return x1 < x2 + w2 && x1 + w1 > x2 &&
                 y1 < y2 + h2 && y1 + h1 > y2
     }
+
 }
