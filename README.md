@@ -6,6 +6,10 @@ SilenceFix++</br>
 </div>
 
 
+## Instruction SilenceFix++
+SilenceFix++ is based on bzym2's GoldBounce
+Original by [heshuyou](https://heshuyou.xyz)
+
 ## Issues
 If you notice any bugs or missing features, you can let us know by opening an issue [here](https://github.com/CCBlueX/GoldBounce/issues).
 
