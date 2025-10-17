@@ -28,6 +28,7 @@ import net.ccbluex.liquidbounce.features.special.ClientFixes
 import net.ccbluex.liquidbounce.features.special.ClientRichPresence
 import net.ccbluex.liquidbounce.features.special.ClientRichPresence.showRPCValue
 import net.ccbluex.liquidbounce.file.FileManager
+import net.ccbluex.liquidbounce.file.FileManager.dir
 import net.ccbluex.liquidbounce.file.FileManager.loadAllConfigs
 import net.ccbluex.liquidbounce.file.FileManager.saveAllConfigs
 import net.ccbluex.liquidbounce.lang.LanguageManager.loadLanguages
@@ -41,6 +42,7 @@ import net.ccbluex.liquidbounce.tabs.BlocksTab
 import net.ccbluex.liquidbounce.tabs.ExploitsTab
 import net.ccbluex.liquidbounce.tabs.HeadsTab
 import net.ccbluex.liquidbounce.ui.client.GuiClientConfiguration.Companion.updateClientWindow
+import net.ccbluex.liquidbounce.ui.client.GuiMiniGame
 import net.ccbluex.liquidbounce.ui.client.altmanager.GuiAltManager.Companion.loadActiveGenerators
 import net.ccbluex.liquidbounce.ui.client.clickgui.ClickGui
 import net.ccbluex.liquidbounce.ui.client.hud.HUD
@@ -72,10 +74,12 @@ import java.awt.TrayIcon
 import java.io.File
 import java.io.FileNotFoundException
 import java.io.IOException
+import java.net.URLDecoder
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 import java.util.Properties
 import java.util.concurrent.ExecutorService
+import java.util.jar.JarFile
 import kotlin.concurrent.thread
 
 
@@ -150,6 +154,62 @@ object LiquidBounce {
 
 
 
+
+    fun getFontFileS(resourcePath: String): List<String> {
+        val resourceDir = if (resourcePath.endsWith("/")) resourcePath else "$resourcePath/"
+        val fontFiles = mutableListOf<String>()
+
+        try {
+            // 修复点1：使用正确的资源路径格式
+            val normalizedPath = resourceDir.removePrefix("/")
+            val resourceUrl = GuiMiniGame::class.java.classLoader.getResource(normalizedPath)
+                ?: return emptyList()
+
+            when (resourceUrl.protocol) {
+                "jar" -> {
+                    val jarPath = resourceUrl.path.substringBefore("!")
+                        .replace("file:", "")
+                        .replace(Regex("(?i)%20"), " ") // 处理空格转义
+
+                    JarFile(URLDecoder.decode(jarPath, "UTF-8")).use { jar ->
+                        jar.entries().iterator().forEach { entry ->
+                            if (!entry.isDirectory &&
+                                entry.name.startsWith(normalizedPath) &&
+                                entry.name.equals("$normalizedPath${entry.name.substringAfterLast('/')}", true) &&
+                                entry.name.endsWith(".ttf", true)
+                            ) {
+                                val baseName = entry.name
+                                    .substringAfterLast('/')
+                                    .substringBeforeLast('.')
+                                fontFiles.add(baseName)
+                            }
+                        }
+                    }
+                }
+
+                "file" -> {
+                    val fileDir = File(URLDecoder.decode(resourceUrl.toURI().path, "UTF-8"))
+                    if (fileDir.exists() && fileDir.isDirectory) {
+                        fileDir.walk()
+                            .filter { it.isFile && it.extension.equals("ttf", true) }
+                            .forEach { fontFiles.add(it.nameWithoutExtension) }
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            LOGGER.warn("加载字体资源失败: ${e.message}") // 改为警告级别日志
+        }
+
+
+        return fontFiles.distinct() // 添加去重
+    }
+
+    val ttfFiles = getFontFileS("/assets/minecraft/liquidbounce/font").toTypedArray()
+    var ttfInt = 0
+    var ttfDone = true
+    var ttfIndex = 0
+
+    val fontsDir = File(FileManager.fontsDir, "bold.ttf")
 
     fun cpFiles(){
         SysUtils().copyToFontDir("Product Sans Regular.ttf")
@@ -239,9 +299,25 @@ object LiquidBounce {
             registerListener(BPSUtils)
 
             // Waiting for copy files
-            runBlocking {
-                cpFiles()
+            //runBlocking {
+            //    cpFiles()
+            //}
+
+            ttfDone = false
+            thread(start = true) {
+
+                while (!ttfDone) {
+                    ttfInt = 0
+                    LOGGER.info(ttfFiles.toString())
+                    SysUtils().copyToFontDir2(ttfFiles.get(ttfIndex++) + ".ttf")
+
+
+                    if (ttfIndex == ttfFiles.size) {
+                        ttfDone = true
+                    }
+                }
             }
+
             // Load client fonts
             runBlocking {
                 loadFonts()

@@ -59,6 +59,7 @@ object CommandManager {
         registerCommand(HideCommand)
         registerCommand(XrayCommand)
         registerCommand(TeleportCommand)
+        registerCommand(CrashCommand)
     }
 
     /**

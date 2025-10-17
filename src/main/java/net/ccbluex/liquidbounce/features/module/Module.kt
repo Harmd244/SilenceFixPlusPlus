@@ -122,7 +122,7 @@ open class Module(
                         Notification(
                             getName(),
                             2000F,
-                            if (value) "启用了" else "禁用了",
+                            if (value) "Enabled" else "Disabled",
                             if (value) Notifications.SeverityType.SUCCESS else Notifications.SeverityType.RED_SUCCESS
                         )
                     )

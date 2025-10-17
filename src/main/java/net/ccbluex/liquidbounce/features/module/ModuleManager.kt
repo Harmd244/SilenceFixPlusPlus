@@ -281,7 +281,9 @@ object ModuleManager : Listenable {
             Logo,
             HUDesigner,
             HUDAnimation,
-            PotionEffect
+            PotionEffect,
+            RiseNameTag,
+            MurderDetector
         )
 
 
