@@ -38,6 +38,7 @@ If you have experience in one or more of these fields, we would highly appreciat
 [LiquidBounce](https://github.com/CCBluex/LiquidBounce)
 [GoldBounce](https://github.com/the-OmegaLabs/GoldBounce)
 [FDPClient](https://github.com/SkidderMC/FDPClient)
+[FPSMaster](https://github.com/FPSMasterTeam/FPSMaster)
 
 ## Stats
 ![Alt](https://repobeats.axiom.co/api/embed/53729ed6bb212df58c4c77544254d2c443053ad6.svg "Repobeats analytics image")
