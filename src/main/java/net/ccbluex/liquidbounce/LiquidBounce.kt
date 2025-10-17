@@ -74,6 +74,7 @@ import java.io.FileNotFoundException
 import java.io.IOException
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
+import java.util.Properties
 import java.util.concurrent.ExecutorService
 import kotlin.concurrent.thread
 
@@ -85,6 +86,17 @@ object LiquidBounce {
      *
      * This has all the basic information.
      */
+    val gitInfo = Properties().also {
+        val inputStream = LiquidBounce::class.java.classLoader.getResourceAsStream("git.properties")
+
+        if (inputStream != null) {
+            it.load(inputStream)
+        } else {
+            it["git.build.version"] = "unofficial"
+        }
+    }
+
+
     const val CLIENT_NAME = "SilenceFix++"
     const val CLIENT_AUTHOR = "HeShuYou"
     const val CLIENT_CLOUD = "https://cloud.liquidbounce.net/LiquidBounce"
@@ -94,8 +106,8 @@ object LiquidBounce {
     val clientVersionText = "b0.3.2"
     val clientBigVersionText = "Release"
     val clientVersionNumber = clientVersionText.substring(1).toIntOrNull() ?: 0 // version format: "b<VERSION>" on legacy
-    val clientCommit = ""
-    val clientBranch = "main"
+    var clientCommit = gitInfo["git.commit.id.abbrev"]?.let { "git-$it" } ?: "unknown"
+    var clientBranch = gitInfo["git.branch"]?.toString() ?: "unknown"
     val development = true
     var inited = false
     var local: Boolean = false
@@ -105,9 +117,9 @@ object LiquidBounce {
      * Defines if the client is in development mode.
      * This will enable update checking on commit time instead of regular legacy versioning.
      */
-    const val IN_DEV = false
+    const val IN_DEV = true
 
-    val clientTitle = "$CLIENT_NAME $clientVersionText "
+    val clientTitle = "$CLIENT_NAME $clientVersionText $clientCommit $MINECRAFT_VERSION " + if (IN_DEV) "| DEVELOPMENT BUILD" else ""
 
     var isStarting = true
 
@@ -135,6 +147,8 @@ object LiquidBounce {
     var playTimeStart: Long = 0
     // Discord RPC
     val clientRichPresence = ClientRichPresence
+
+
 
 
     fun cpFiles(){

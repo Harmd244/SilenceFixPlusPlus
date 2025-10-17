@@ -145,7 +145,6 @@ reobf {
 jar.dependsOn("shadowJar")
 
 tasks.reobfShadowJar.mustRunAfter shadowJar
-tasks.generateGitProperties.enabled = false
 
 task copyZipInclude(type: Copy) {
     from 'zip_include/'
