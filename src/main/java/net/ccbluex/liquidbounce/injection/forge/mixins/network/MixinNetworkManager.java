@@ -46,7 +46,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import ru.fiw.proxyserver.ProxyServer;
+
 
 import java.net.InetAddress;
 import java.net.SocketAddress;
@@ -142,7 +142,6 @@ public class MixinNetworkManager {
                             p_initChannel_1_.pipeline().addLast(new MCPVLBPipeline(user));
                         }
 
-                        ProxyServer.hook(p_initChannel_1_);
                     }
                 })
                 .channel(oclass)
